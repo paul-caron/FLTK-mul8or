@@ -12,6 +12,7 @@
 #include <map>
 #include <cmath>
 
+// global
 std::map<char,int>keymap={
 {'x',0},
 {'1',1},
@@ -30,7 +31,6 @@ std::map<char,int>keymap={
 {'f',14}, 
 {'v',15}
 };
-
 
 // global
 Chip8 c8 = Chip8();
