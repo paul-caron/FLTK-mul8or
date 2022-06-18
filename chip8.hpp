@@ -1,3 +1,6 @@
+#ifndef _CHIP8_HPP_
+#define _CHIP8_HPP_
+
 #include <cstdint>
 #include <array>
 
@@ -29,3 +32,4 @@ private:
     std::array<uint8_t,4096> memory;
 };
 
+#endif
