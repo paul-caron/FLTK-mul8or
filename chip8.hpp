@@ -4,7 +4,6 @@
 #include <cstdint>
 #include <array>
 
-
 class Chip8{
 public:
     std::array<uint8_t,8192> gfx;
