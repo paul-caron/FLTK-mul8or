@@ -18,6 +18,7 @@ public:
     bool extended_mode;
     bool load(const char * path);
     void cycle();
+    void reset();
     Chip8();
 private:
     int instruction_count=0; //slows timers
@@ -27,5 +28,4 @@ private:
     void down();
     std::array<uint8_t,4096> memory;
 };
-
 
