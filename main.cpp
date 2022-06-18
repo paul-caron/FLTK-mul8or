@@ -83,7 +83,6 @@ Chip8_Window(Chip8 * chip8,int w, int h, const char * title): Fl_Window(w,h,titl
         menubar->add("Settings/&Speed Down",FL_COMMAND + '-', speeddown_callback);
     }
     end();
-    this->resizable(0);
 }
 
 void draw(){
