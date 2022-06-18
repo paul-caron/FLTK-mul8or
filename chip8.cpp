@@ -47,6 +47,10 @@ uint8_t super_fontset[160]={
 };
 
 Chip8::Chip8(){
+    reset();
+}
+
+void Chip8::reset(){
     sound_timer = 0;
     delay_timer = 0;
     instruction_count = 0;
